@@ -19,7 +19,7 @@ PUT http://localhost:8080/api/campaign/statistics
     "groupByDimensions" : [
         "CAMPAIGN"]
 }
-
+Metrics it's required field and i should contain at least 1 element in array.
 Metrics deterime returned values;
 FilterParams determine filters on fields.
 GroupByDimensions determine on what fields we want to group by. It's automaticaly added to returned values.
